@@ -1,4 +1,4 @@
-setwd("~/Documents/University of Technology /Spring 2018/Technology Lab 2 Connect & Network (94676)")
+setwd("~/Documents/GitHub/BTI")
 
 library(tidyverse)
 library(lubridate)
