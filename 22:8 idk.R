@@ -9,5 +9,5 @@ diamonds2 <- diamonds %>%
   arrange(clarity) %>% 
   mutate(av_carat = mean(carat))
 
-ggplot(diamonds2, aes(carat, price)) 
+ggplot(diamonds2, aes(carat, price)) +
   geom_point(aes(colour=cut, size=table, alpha=1/10)) 
